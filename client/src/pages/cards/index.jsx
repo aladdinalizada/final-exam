@@ -12,6 +12,10 @@ const CardsFromAPI = () => {
     getData();
   }, []);
 
+  const sortBYprice = () => {
+    const sorted = data.sort((a, b) => (a.price - b - price ? 1 : -1));
+  };
+
   return (
     <div>
       <div className="cardsfromapi">
