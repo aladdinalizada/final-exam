@@ -1,0 +1,67 @@
+.footer {
+  margin: 0 auto;
+  .container {
+    width: 100%;
+    background-color: rgb(4, 9, 30);
+    color: white;
+    .content {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 79px 0px;
+      column-gap: 50px;
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+      }
+      .about-us {
+        width: 22.8%;
+        i,
+        a {
+          color: rgb(245, 63, 81);
+          text-decoration: none;
+        }
+      }
+      p {
+        font-weight: 400;
+        color: rgb(105, 105, 105);
+        margin-bottom: 20px;
+      }
+      .newsletter {
+        width: 25%;
+        .sendmail {
+          display: flex;
+          width: 100%;
+          input {
+            width: 70%;
+            padding: 10px 0px;
+            padding-left: 10px;
+          }
+          button {
+            margin-left: -5px;
+            padding: 5px 10px;
+            background-color: rgb(245, 63, 81);
+            border: none;
+            i {
+              color: white;
+            }
+          }
+        }
+      }
+      .follow-us {
+        ul {
+          display: flex;
+          column-gap: 16px;
+          list-style: none;
+          li {
+            &:hover {
+              transition: 0.3s;
+              color: rgb(245, 63, 81);
+            }
+          }
+        }
+      }
+    }
+  }
+}
